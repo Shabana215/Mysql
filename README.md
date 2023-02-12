@@ -11,10 +11,10 @@
 ```
 Here are some commands that come under DDL:
 
-CREATE
-ALTER
-DROP
-TRUNCATE
+* CREATE
+* ALTER
+* DROP
+* TRUNCATE
 ```
 2. Data Manipulation Language
 - DML commands are used to modify the database. It is responsible for all form of changes in the database.
@@ -42,9 +42,10 @@ Here are some commands that come under TCL:
 * Rollback
 * Savepoint
 5. Data Query Language
+
 DQL is used to fetch the data from the database.
 
-It uses only one command:
+> It uses only one command:
 
 *  SELECT
 
