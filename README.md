@@ -25,5 +25,28 @@ Here are some commands under DML
 * Update
 * Delete
 ```
+3. Data Control Language
+DCL commands are used to grant and take back authority from any database user.
+
+Here are some commands that come under DCL:
+* Grant
+* Revoke
+4. Transaction Control Language
+
+TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only.
+
+These operations are automatically committed in the database that's why they cannot be used while creating tables or dropping them.
+
+Here are some commands that come under TCL:
+* Commit
+* Rollback
+* Savepoint
+5. Data Query Language
+DQL is used to fetch the data from the database.
+
+It uses only one command:
+
+*  SELECT
+
 
 
