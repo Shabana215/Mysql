@@ -16,4 +16,14 @@ ALTER
 DROP
 TRUNCATE
 ```
+2. Data Manipulation Language
+- DML commands are used to modify the database. It is responsible for all form of changes in the database.
+- The command of DML is not auto-committed that means it can't permanently save all the changes in the database. They can be rollback.
+```
+Here are some commands under DML
+* Insert
+* Update
+* Delete
+```
+
 
