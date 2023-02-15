@@ -14,23 +14,23 @@ Here are some commands that come under DDL:
 1. CREATE
 2. ALTER
 3. DROP
-4.  TRUNCATE
+4. TRUNCATE
 ```
 2. **Data Manipulation Language**
 - DML commands are used to modify the database. It is responsible for all form of changes in the database.
 - The command of DML is not auto-committed that means it can't permanently save all the changes in the database. They can be rollback.
 ```
 Here are some commands under DML
-* Insert
-* Update
-* Delete
+1. Insert
+2. Update
+3. Delete
 ```
 3. **Data Control Language**
 DCL commands are used to grant and take back authority from any database user.
 
 Here are some commands that come under DCL:
-* Grant
-* Revoke
+1. Grant
+2. Revoke
 4. **Transaction Control Language**
 
 TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only.
@@ -38,16 +38,17 @@ TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only.
 These operations are automatically committed in the database that's why they cannot be used while creating tables or dropping them.
 
 Here are some commands that come under TCL:
-* Commit
-* Rollback
-* Savepoint
+1. Commit
+2. Rollback
+3. Savepoint
+
 5. **Data Query Language**
 
 DQL is used to fetch the data from the database.
 
 > It uses only one command:
 
-*  SELECT
+1.  SELECT
 
 
 
