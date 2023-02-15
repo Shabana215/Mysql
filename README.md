@@ -194,7 +194,7 @@ It is used to roll the transaction back to a certain point without rolling back 
 
 DQL is used to fetch the data from the database.
 
-> It uses only one command:
+ It uses only one command:
 
 1.  SELECT
 
