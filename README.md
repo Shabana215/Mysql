@@ -133,6 +133,7 @@ DCL commands are used to grant and take back authority from any database user.
 Here are some commands that come under DCL:
 1. Grant
 2. Revoke
+
 **4. Transaction Control Language**
 
 TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only.
