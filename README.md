@@ -134,6 +134,20 @@ Here are some commands that come under DCL:
 1. Grant
 2. Revoke
 
+**1. Grant:**
+It is used to give user access privileges to a database.
+
+**Syntax:**
+
+`GRANT SELECT, UPDATE ON MY_TABLE TO SOME_USER, ANOTHER_USER; `
+
+**2. Revoke:**
+It is used to take back permissions from the user.
+
+**Syntax:**
+
+`REVOKE SELECT, UPDATE ON MY_TABLE FROM USER1, USER2;  `
+
 **4. Transaction Control Language**
 
 TCL commands can only use with DML commands like INSERT, DELETE and UPDATE only.
@@ -145,6 +159,37 @@ Here are some commands that come under TCL:
 2. Rollback
 3. Savepoint
 
+**1. Commit:**
+Commit command is used to save all the transactions to the database.
+
+**Syntax:**
+`COMMIT;`  
+
+**Examples:**
+```
+DELETE FROM EMPLOYEES  
+WHERE Name = Sonu;  
+COMMIT;  
+```
+**2. Rollback:**
+Rollback command is used to undo transactions that have not already been saved to the database.
+
+**Syntax:**
+`ROLLBACK;  `
+
+**Example:**
+```
+DELETE FROM EMPLOYEES  
+WHERE Name = Sonu;  
+ROLLBACK;
+```
+
+**3. Savepoint:**
+It is used to roll the transaction back to a certain point without rolling back the entire transaction.
+
+**Syntax:**
+`SAVEPOINT SAVEPOINT_NAME;  `
+
 **5. Data Query Language**
 
 DQL is used to fetch the data from the database.
@@ -152,6 +197,32 @@ DQL is used to fetch the data from the database.
 > It uses only one command:
 
 1.  SELECT
+
+**1. SELECT:**
+This is the same as the projection operation of relational algebra. It is used to select the attribute based on the condition described by WHERE clause.
+It is also used to select entire table in database.
+
+**Syntax:**
+
+```
+SELECT expressions    
+FROM TABLES    
+WHERE conditions;  
+```
+
+**Syntax:**
+SELECT * from table_name;
+
+**Example:**
+```
+SELECT Name  
+FROM EMPLOYEES  
+WHERE Regd_No=101;  
+```
+
+**Example:**
+SELECT * from EMPLOYEES;
+
 
 
 
