@@ -13,13 +13,14 @@
 Here are some commands that come under DDL:
 
 1. CREATE
-1. ALTER
-1. DROP
-1. TRUNCATE
+2. ALTER
+3. DROP
+4. TRUNCATE
 ```
 
 **1. CREATE:**
-**CREATE** It is used to create a new table in the database.
+
+ It is used to create a new table in the database.
 
 **Syntax:**
 `CREATE TABLE TABLE_NAME (COLUMN_NAME DATATYPES[SIZE]); `
@@ -93,11 +94,37 @@ VALUES (value1, value2, value3, .... valueN);
 ```
 
 **Example:**
-INSERT INTO EMPLOYEE (Regd_No, Name) VALUES ("101", "Sonoo");  
+
+`INSERT INTO EMPLOYEE (Regd_No, Name) VALUES ("101", "Sonoo"); ` 
 
 **2. Update:**
+This command is used to update or modify the value of a column in the table.
+
+**Syntax:**
+
+`UPDATE table_name SET [column_name1= value1,...column_nameN = valueN] [WHERE CONDITION]`
+
+**Example:**
+
+```
+UPDATE EMPLOYEE   
+SET Name = 'Sonu'    
+WHERE Regd_NO = '3'  
+```
 
 **3. Delete:**
+It is used to remove one or more row from a table.
+
+**Syntax:**
+
+`DELETE FROM table_name [WHERE condition];  `
+
+**Example:**
+
+```
+DELETE FROM EMPLOYEE 
+WHERE Name="Sonu";  
+```
 
 
 **3. Data Control Language**
