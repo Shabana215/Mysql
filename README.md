@@ -52,7 +52,16 @@ To modify existing column in the table
  `DROP TABLE table_name;  `
  
  **Example:**
- `DROP TABLE EMPLOYEE`
+ `DROP TABLE EMPLOYEE;`
+ 
+ **4. Truncate:**
+ It is used to delete all the rows from the table and free the space containing the table.
+ 
+ **Syntax:**
+ `TRUNCATE TABLE table_name;  `
+ 
+ **Example:**
+ `TRUNCATE TABLE EMPLOYEE;`
 
 
 **2. Data Manipulation Language**
