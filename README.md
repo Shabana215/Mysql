@@ -17,12 +17,20 @@ Here are some commands that come under DDL:
 4. TRUNCATE
 ```
 
-- CREATE:
-
+**1. CREATE:**
 **CREATE** It is used to create a new table in the database.
 
 **Syntax:**
 `CREATE TABLE TABLE_NAME (COLUMN_NAME DATATYPES[SIZE]); `
+
+**2. ALTER:**
+ It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
+ 
+ **Syntax:**
+ To add a new column in existed table
+ 
+ `ALTER TABLE table_name ADD column_name COLUMN-definition;  `
+
 
 **2. Data Manipulation Language**
 - DML commands are used to modify the database. It is responsible for all form of changes in the database.
