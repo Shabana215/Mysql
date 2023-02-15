@@ -74,6 +74,32 @@ Here are some commands under DML
 2. Update
 3. Delete
 ```
+
+**1. Insert:**
+The INSERT statement is a SQL query. It is used to insert data into the row of a table.
+
+**Syntax:**
+
+```
+INSERT INTO TABLE_NAME    
+(col1, col2, col3,.... col N)  
+VALUES (value1, value2, value3, .... valueN); 
+```
+**OR**
+
+```
+INSERT INTO TABLE_NAME    
+VALUES (value1, value2, value3, .... valueN);    
+```
+
+**Example:**
+INSERT INTO EMPLOYEE (Regd_No, Name) VALUES ("101", "Sonoo");  
+
+**2. Update:**
+
+**3. Delete:**
+
+
 **3. Data Control Language**
 DCL commands are used to grant and take back authority from any database user.
 
