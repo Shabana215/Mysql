@@ -22,8 +22,9 @@ Here are some commands that come under DDL:
 
 **Syntax:**
 `CREATE TABLE TABLE_NAME (COLUMN_NAME DATATYPES[SIZE]); `
+
 **Example**
-`CREATE TABLE EMPLOYEE(Name VARCHAR2(20), Email VARCHAR2(100), DOB DATE); `
+`CREATE TABLE EMPLOYEE(Name VARCHAR(20), Email VARCHAR(100), DOB DATE); `
 
 **2. ALTER:**
  It is used to alter the structure of the database. This change could be either to modify the characteristics of an existing attribute or probably to add a new attribute.
@@ -40,15 +41,18 @@ To modify existing column in the table
  
  **Examples**
 
-`1. ALTER TABLE STU_DETAILS ADD(ADDRESS VARCHAR2(20));`
+` ALTER TABLE STU_DETAILS ADD(ADDRESS VARCHAR(20));`
 
-`1. ALTER TABLE STU_DETAILS MODIFY (NAME VARCHAR2(20));  `
+` ALTER TABLE STU_DETAILS MODIFY (NAME VARCHAR(20));  `
 
  **3. Drop:**
  It is used to delete both the structure and record stored in the table.
  
  **Syntax:**
  `DROP TABLE table_name;  `
+ 
+ **Example:**
+ `DROP TABLE EMPLOYEE`
 
 
 **2. Data Manipulation Language**
